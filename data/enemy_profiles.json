@@ -1,0 +1,199 @@
+{
+  "29695a80-42af-4c76-b3da-10b70a0fbc79": {
+    "encounters": 1,
+    "wins_against": 1,
+    "losses_to": 0,
+    "observed_atk": [
+      9
+    ],
+    "observed_def": [
+      3
+    ],
+    "observed_hp": [
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:13:15.210847"
+  },
+  "b4755077-384a-42d3-84b1-35dc57a79362": {
+    "encounters": 2,
+    "wins_against": 0,
+    "losses_to": 2,
+    "observed_atk": [
+      8,
+      8
+    ],
+    "observed_def": [
+      3,
+      3
+    ],
+    "observed_hp": [
+      100,
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:24:06.890197"
+  },
+  "47f232af-6478-435b-b9e3-69b3912fbb24": {
+    "encounters": 2,
+    "wins_against": 0,
+    "losses_to": 2,
+    "observed_atk": [
+      7,
+      7
+    ],
+    "observed_def": [
+      5,
+      5
+    ],
+    "observed_hp": [
+      100,
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:32:00.328871"
+  },
+  "ddc0c393-c9bb-4541-a3b5-6969b1b9f466": {
+    "encounters": 1,
+    "wins_against": 1,
+    "losses_to": 0,
+    "observed_atk": [
+      7
+    ],
+    "observed_def": [
+      6
+    ],
+    "observed_hp": [
+      79
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:33:59.077027"
+  },
+  "0170e599-a5a4-4735-9422-ddf0d77d0a2c": {
+    "encounters": 2,
+    "wins_against": 0,
+    "losses_to": 2,
+    "observed_atk": [
+      9,
+      9
+    ],
+    "observed_def": [
+      5,
+      5
+    ],
+    "observed_hp": [
+      77,
+      77
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:36:56.769447"
+  },
+  "c5933668-6725-464d-b71d-fca6e6310861": {
+    "encounters": 2,
+    "wins_against": 2,
+    "losses_to": 0,
+    "observed_atk": [
+      8,
+      8
+    ],
+    "observed_def": [
+      5,
+      5
+    ],
+    "observed_hp": [
+      100,
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:42:52.082515"
+  },
+  "94f58e65-cd70-4f36-bcc1-52b5712edde7": {
+    "encounters": 2,
+    "wins_against": 1,
+    "losses_to": 1,
+    "observed_atk": [
+      8,
+      8
+    ],
+    "observed_def": [
+      4,
+      4
+    ],
+    "observed_hp": [
+      23,
+      7
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T03:49:46.740260"
+  },
+  "09d907bb-7981-4ec8-87af-e9b83fc9ae9b": {
+    "encounters": 1,
+    "wins_against": 1,
+    "losses_to": 0,
+    "observed_atk": [
+      7
+    ],
+    "observed_def": [
+      4
+    ],
+    "observed_hp": [
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T04:12:30.143233"
+  },
+  "bcbed6e9-4c9e-45fd-bf2c-e33e479da973": {
+    "encounters": 1,
+    "wins_against": 1,
+    "losses_to": 0,
+    "observed_atk": [
+      7
+    ],
+    "observed_def": [
+      5
+    ],
+    "observed_hp": [
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T04:13:29.486104"
+  },
+  "d32c3d02-e708-4f0e-8129-001a474e569f": {
+    "encounters": 2,
+    "wins_against": 1,
+    "losses_to": 1,
+    "observed_atk": [
+      10,
+      10
+    ],
+    "observed_def": [
+      5,
+      5
+    ],
+    "observed_hp": [
+      37,
+      16
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T07:18:40.644781"
+  },
+  "7420aff1-a268-4e7e-96c2-f68a2cfdb34b": {
+    "encounters": 2,
+    "wins_against": 2,
+    "losses_to": 0,
+    "observed_atk": [
+      7,
+      7
+    ],
+    "observed_def": [
+      4,
+      4
+    ],
+    "observed_hp": [
+      56,
+      76
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T07:24:36.944361"
+  }
+}

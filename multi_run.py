@@ -17,10 +17,20 @@ import time
 from typing import List
 
 try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except Exception:
-    pass
+    from dotenv import load_dotenv, find_dotenv
+    import os as _os
+    # Find .env in current dir or parent directories
+    env_path = find_dotenv()
+    if not env_path:
+        # Fallback: look in script's directory
+        env_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), ".env")
+    if _os.path.exists(env_path):
+        load_dotenv(env_path, override=True)
+        print(f"[multi_run] Loaded .env from: {env_path}")
+    else:
+        print(f"[multi_run] Warning: .env not found")
+except ImportError:
+    print("[multi_run] Warning: python-dotenv not installed")
 
 
 def _split_env_list(raw: str) -> List[str]:
@@ -78,13 +88,19 @@ def _resolve_agent_names(keys: List[str], agent_names: List[str]) -> List[str]:
 def main() -> int:
     raw_keys = os.environ.get("API_KEYS", "")
     keys = _split_env_list(raw_keys)
+
+    # Debug: show what we loaded
+    print(f"[multi_run] API_KEYS found: {len(keys)} keys")
+
     if not keys:
         # Fallback to single-key mode for local/dev usage.
         api_key = os.environ.get("API_KEY", "").strip()
         if not api_key:
             print("Missing API_KEYS or API_KEY", file=sys.stderr)
+            print("Make sure your .env file contains API_KEYS=key1,key2,key3", file=sys.stderr)
             return 1
         keys = [api_key]
+        print(f"[multi_run] Fallback to single API_KEY mode")
 
     raw_wallets = os.environ.get("WALLET_ADDRESSES", "")
     wallets = _split_env_list(raw_wallets)
@@ -92,6 +108,10 @@ def main() -> int:
     game_ids = _split_env_list(raw_game_ids)
     raw_agent_names = os.environ.get("AGENT_NAMES", "")
     agent_names = _split_env_list(raw_agent_names)
+
+    print(f"[multi_run] WALLET_ADDRESSES found: {len(wallets)}")
+    print(f"[multi_run] AGENT_NAMES found: {len(agent_names)} -> {agent_names}")
+
     try:
         wallet_list = _resolve_wallets(keys, wallets)
         game_id_list = _resolve_game_ids(keys, game_ids)
@@ -130,7 +150,10 @@ def main() -> int:
         start=1,
     ):
         env = _build_env(base_env, key, wallet, game_id, agent_name)
-        print(f"Starting bot {idx}/{len(keys)}")
+        # Show which agent is starting (mask API key for security)
+        key_masked = f"{key[:12]}...{key[-4:]}" if len(key) > 20 else key[:8] + "..."
+        name_display = agent_name or f"Bot{idx}"
+        print(f"[multi_run] Starting bot {idx}/{len(keys)}: {name_display} (key: {key_masked})")
         procs.append(subprocess.Popen([sys.executable, "main.py"], env=env))
 
     # Keep parent alive and exit if any child exits unexpectedly.

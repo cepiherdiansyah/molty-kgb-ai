@@ -1,10 +1,20 @@
 import os
 
+# Load .env from project root (parent of config/)
 try:
-	from dotenv import load_dotenv
-	load_dotenv()
-except Exception:
-	pass
+    from dotenv import load_dotenv, find_dotenv
+    # First try find_dotenv which searches up directory tree
+    env_path = find_dotenv()
+    if not env_path:
+        # Fallback: look in script's parent directory
+        env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    if os.path.exists(env_path):
+        load_dotenv(env_path, override=True)
+        print(f"[settings] Loaded .env from: {env_path}")
+    else:
+        print(f"[settings] Warning: .env not found (tried: {env_path})")
+except ImportError:
+    print("[settings] Warning: python-dotenv not installed, using os.environ only")
 
 """
 ==============================================================================

@@ -1,0 +1,2187 @@
+[
+  {
+    "target_id": "29695a80-42af-4c76-b3da-10b70a0fbc79",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 9,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": "29695a80-42af-4c76-b3da-10b70a0fbc79",
+    "damage_dealt": 8,
+    "damage_taken": 0,
+    "timestamp": 1773717195.210737,
+    "my_stats": {
+      "hp": 100,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 170,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 9,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Saras_293"
+  },
+  {
+    "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 8,
+    "damage_taken": 0,
+    "timestamp": 1773717432.2409558,
+    "my_stats": {
+      "hp": 100,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 170,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 8,
+    "damage_taken": 23,
+    "timestamp": 1773717491.629278,
+    "my_stats": {
+      "hp": 100,
+      "ep": 10,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 170,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+    "target_type": "monster",
+    "target_hp": 11,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773717550.6054778,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 11,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+    "target_type": "monster",
+    "target_hp": 11,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773717609.948915,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 11,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "b4755077-384a-42d3-84b1-35dc57a79362",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 8,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773717788.2798421,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 8,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Rudin_494"
+  },
+  {
+    "target_id": "b4755077-384a-42d3-84b1-35dc57a79362",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 8,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773717846.890184,
+    "my_stats": {
+      "hp": 77,
+      "ep": 10,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 8,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Rudin_494"
+  },
+  {
+    "target_id": "47f232af-6478-435b-b9e3-69b3912fbb24",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 7,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718261.0689101,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 7,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "bapac111ibu"
+  },
+  {
+    "target_id": "47f232af-6478-435b-b9e3-69b3912fbb24",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 7,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718320.328856,
+    "my_stats": {
+      "hp": 77,
+      "ep": 10,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 7,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "bapac111ibu"
+  },
+  {
+    "target_id": "ddc0c393-c9bb-4541-a3b5-6969b1b9f466",
+    "target_type": "agent",
+    "target_hp": 79,
+    "target_atk": 7,
+    "target_def": 6,
+    "target_weapon": "fist",
+    "won": "ddc0c393-c9bb-4541-a3b5-6969b1b9f466",
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718439.0770051,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 79,
+      "atk": 7,
+      "def": 6,
+      "weapon_bonus": 0
+    },
+    "target_name": "godmode5939"
+  },
+  {
+    "target_id": "0170e599-a5a4-4735-9422-ddf0d77d0a2c",
+    "target_type": "agent",
+    "target_hp": 77,
+    "target_atk": 9,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718557.598005,
+    "my_stats": {
+      "hp": 77,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 77,
+      "atk": 9,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "Rudin_856"
+  },
+  {
+    "target_id": "0170e599-a5a4-4735-9422-ddf0d77d0a2c",
+    "target_type": "agent",
+    "target_hp": 77,
+    "target_atk": 9,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718616.7693079,
+    "my_stats": {
+      "hp": 77,
+      "ep": 10,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 147,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 77,
+      "atk": 9,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "Rudin_856"
+  },
+  {
+    "target_id": "c5933668-6725-464d-b71d-fca6e6310861",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 8,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": "c5933668-6725-464d-b71d-fca6e6310861",
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718735.480819,
+    "my_stats": {
+      "hp": 70,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 140,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "IM3_226"
+  },
+  {
+    "target_id": "c5933668-6725-464d-b71d-fca6e6310861",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 8,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": "c5933668-6725-464d-b71d-fca6e6310861",
+    "damage_dealt": 12,
+    "damage_taken": 0,
+    "timestamp": 1773718972.082506,
+    "my_stats": {
+      "hp": 70,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 140,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "IM3_226"
+  },
+  {
+    "target_id": "94f58e65-cd70-4f36-bcc1-52b5712edde7",
+    "target_type": "agent",
+    "target_hp": 23,
+    "target_atk": 8,
+    "target_def": 4,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773719327.211487,
+    "my_stats": {
+      "hp": 70,
+      "ep": 9,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 140,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 23,
+      "atk": 8,
+      "def": 4,
+      "weapon_bonus": 0
+    },
+    "target_name": "AbigailBT3-ST"
+  },
+  {
+    "target_id": "94f58e65-cd70-4f36-bcc1-52b5712edde7",
+    "target_type": "agent",
+    "target_hp": 7,
+    "target_atk": 8,
+    "target_def": 4,
+    "target_weapon": "fist",
+    "won": true,
+    "damage_dealt": 13,
+    "damage_taken": 0,
+    "timestamp": 1773719386.740247,
+    "my_stats": {
+      "hp": 70,
+      "ep": 10,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 5,
+      "weapon_range": 0,
+      "heal_hp_total": 70,
+      "heal_ep_total": 0,
+      "heal_count": 3,
+      "best_heal_hp": 30,
+      "effective_hp": 140,
+      "inventory": [
+        {
+          "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+          "typeId": "bandage",
+          "name": "Bandage",
+          "description": "Restores 30 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 30,
+          "epRestore": 0
+        },
+        {
+          "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 15
+        },
+        {
+          "id": "e478d955-2382-4f59-9234-8351499520ce",
+          "typeId": "knife",
+          "name": "Dagger",
+          "description": "Low-tier melee weapon",
+          "category": "weapon",
+          "stackable": false,
+          "quantity": 1,
+          "atkBonus": 5,
+          "range": 0,
+          "epCost": 1
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 4,
+      "weapon_bonus": 0
+    },
+    "target_name": "AbigailBT3-ST"
+  },
+  {
+    "target_id": "e22a4aad-13bf-4758-8325-84e0d6736a09",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 24,
+    "timestamp": 1773720631.782808,
+    "my_stats": {
+      "hp": 100,
+      "ep": 10,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 140,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "e22a4aad-13bf-4758-8325-84e0d6736a09",
+    "target_type": "monster",
+    "target_hp": 14,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 0,
+    "timestamp": 1773720691.0378299,
+    "my_stats": {
+      "hp": 76,
+      "ep": 8,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 116,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 14,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "09d907bb-7981-4ec8-87af-e9b83fc9ae9b",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 7,
+    "target_def": 4,
+    "target_weapon": "fist",
+    "won": "09d907bb-7981-4ec8-87af-e9b83fc9ae9b",
+    "damage_dealt": 10,
+    "damage_taken": 0,
+    "timestamp": 1773720750.1432152,
+    "my_stats": {
+      "hp": 76,
+      "ep": 9,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 116,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 7,
+      "def": 4,
+      "weapon_bonus": 0
+    },
+    "target_name": "Angela275"
+  },
+  {
+    "target_id": "bcbed6e9-4c9e-45fd-bf2c-e33e479da973",
+    "target_type": "agent",
+    "target_hp": 100,
+    "target_atk": 7,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": "bcbed6e9-4c9e-45fd-bf2c-e33e479da973",
+    "damage_dealt": 9,
+    "damage_taken": 0,
+    "timestamp": 1773720809.486096,
+    "my_stats": {
+      "hp": 76,
+      "ep": 10,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 116,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 100,
+      "atk": 7,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "Heather500"
+  },
+  {
+    "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 0,
+    "timestamp": 1773721046.4275541,
+    "my_stats": {
+      "hp": 76,
+      "ep": 9,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 116,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 24,
+    "timestamp": 1773721105.569951,
+    "my_stats": {
+      "hp": 76,
+      "ep": 10,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 40,
+      "heal_ep_total": 0,
+      "heal_count": 2,
+      "best_heal_hp": 20,
+      "effective_hp": 116,
+      "inventory": [
+        {
+          "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+          "typeId": "megaphone",
+          "name": "Megaphone",
+          "description": "Broadcast to all (single use)",
+          "category": "utility",
+          "stackable": false,
+          "quantity": 1,
+          "effect": "broadcast",
+          "useType": "consumable"
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+    "target_type": "monster",
+    "target_hp": 14,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 0,
+    "timestamp": 1773721283.180356,
+    "my_stats": {
+      "hp": 72,
+      "ep": 9,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 92,
+      "inventory": [
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+          "typeId": "megaphone",
+          "name": "Megaphone",
+          "description": "Broadcast to all (single use)",
+          "category": "utility",
+          "stackable": false,
+          "quantity": 1,
+          "effect": "broadcast",
+          "useType": "consumable"
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 14,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+    "target_type": "monster",
+    "target_hp": 14,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 10,
+    "damage_taken": 24,
+    "timestamp": 1773721342.2972732,
+    "my_stats": {
+      "hp": 72,
+      "ep": 10,
+      "atk": 12,
+      "def": 3,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 92,
+      "inventory": [
+        {
+          "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 5
+        },
+        {
+          "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+          "typeId": "megaphone",
+          "name": "Megaphone",
+          "description": "Broadcast to all (single use)",
+          "category": "utility",
+          "stackable": false,
+          "quantity": 1,
+          "effect": "broadcast",
+          "useType": "consumable"
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 14,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "5a9bf205-7cf6-4d37-9b43-d7040fa30368",
+    "target_type": "monster",
+    "target_hp": 25,
+    "target_atk": 25,
+    "target_def": 3,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 6,
+    "damage_taken": 0,
+    "timestamp": 1773731446.754356,
+    "my_stats": {
+      "hp": 74,
+      "ep": 9,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 94,
+      "inventory": [
+        {
+          "id": "2cb91763-7d52-4966-9406-448248d75c09",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 12
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 25,
+      "atk": 25,
+      "def": 3,
+      "weapon_bonus": 0
+    },
+    "target_name": "Bandit"
+  },
+  {
+    "target_id": "d32c3d02-e708-4f0e-8129-001a474e569f",
+    "target_type": "agent",
+    "target_hp": 37,
+    "target_atk": 10,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": false,
+    "damage_dealt": 5,
+    "damage_taken": 0,
+    "timestamp": 1773731861.069835,
+    "my_stats": {
+      "hp": 74,
+      "ep": 10,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 94,
+      "inventory": [
+        {
+          "id": "2cb91763-7d52-4966-9406-448248d75c09",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 12
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 37,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "pukiman_021"
+  },
+  {
+    "target_id": "d32c3d02-e708-4f0e-8129-001a474e569f",
+    "target_type": "agent",
+    "target_hp": 16,
+    "target_atk": 10,
+    "target_def": 5,
+    "target_weapon": "fist",
+    "won": "d32c3d02-e708-4f0e-8129-001a474e569f",
+    "damage_dealt": 5,
+    "damage_taken": 0,
+    "timestamp": 1773731920.644565,
+    "my_stats": {
+      "hp": 74,
+      "ep": 8,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 94,
+      "inventory": [
+        {
+          "id": "2cb91763-7d52-4966-9406-448248d75c09",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        },
+        {
+          "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 12
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 16,
+      "atk": 10,
+      "def": 5,
+      "weapon_bonus": 0
+    },
+    "target_name": "pukiman_021"
+  },
+  {
+    "target_id": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+    "target_type": "agent",
+    "target_hp": 56,
+    "target_atk": 7,
+    "target_def": 4,
+    "target_weapon": "fist",
+    "won": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+    "damage_dealt": 6,
+    "damage_taken": 0,
+    "timestamp": 1773732157.640398,
+    "my_stats": {
+      "hp": 79,
+      "ep": 9,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 99,
+      "inventory": [
+        {
+          "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 12
+        },
+        {
+          "id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 56,
+      "atk": 7,
+      "def": 4,
+      "weapon_bonus": 0
+    },
+    "target_name": "Prasetyo_Abd"
+  },
+  {
+    "target_id": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+    "target_type": "agent",
+    "target_hp": 76,
+    "target_atk": 7,
+    "target_def": 4,
+    "target_weapon": "fist",
+    "won": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+    "damage_dealt": 6,
+    "damage_taken": 0,
+    "timestamp": 1773732276.9433868,
+    "my_stats": {
+      "hp": 79,
+      "ep": 9,
+      "atk": 8,
+      "def": 5,
+      "weapon_bonus": 0,
+      "weapon_range": 0,
+      "heal_hp_total": 20,
+      "heal_ep_total": 0,
+      "heal_count": 1,
+      "best_heal_hp": 20,
+      "effective_hp": 99,
+      "inventory": [
+        {
+          "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+          "typeId": "reward1",
+          "name": "$Moltz",
+          "description": "In-game rewards. Collected on victory to account balance.",
+          "category": "currency",
+          "stackable": true,
+          "quantity": 12
+        },
+        {
+          "id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+          "typeId": "emergency_food",
+          "name": "Emergency rations",
+          "description": "Restores 20 HP",
+          "category": "recovery",
+          "stackable": true,
+          "quantity": 1,
+          "hpRestore": 20,
+          "epRestore": 0
+        }
+      ]
+    },
+    "enemy_stats": {
+      "hp": 76,
+      "atk": 7,
+      "def": 4,
+      "weapon_bonus": 0
+    },
+    "target_name": "Prasetyo_Abd"
+  }
+]

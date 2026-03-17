@@ -1,0 +1,4618 @@
+[
+  {
+    "game_id": "0ed5c22a-7d77-4e02-b606-5221e0b3a503",
+    "agent_id": "3b2ce1db-f903-4868-8a78-b6a490301339",
+    "agent_name": "elcuan",
+    "start_time": "2026-03-17T03:11:15.966733",
+    "turns": [
+      {
+        "turn": 1,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773717076.393737,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 2,
+        "hp": 100,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Garden",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717135.728833,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 3,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Garden",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717195.2081668,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 4,
+        "hp": 100,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Fort",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717254.360568,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 5,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Fort",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717313.5164192,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 6,
+        "hp": 100,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773717372.9067578,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 7,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773717432.2409222,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 8,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773717491.62894,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 9,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773717550.605414,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 10,
+        "hp": 77,
+        "ep": 8,
+        "action_type": "move",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717609.948879,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 11,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717669.1300218,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 12,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Lab",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717728.293453,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 13,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Lab",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717788.2796228,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 14,
+        "hp": 77,
+        "ep": 8,
+        "action_type": "move",
+        "region": "Lab",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717846.8898969,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 15,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Lab",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717906.0109398,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 16,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "explore",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773717965.3086898,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 17,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "explore",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718024.4791958,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 18,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718083.615154,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 19,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Temple",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718142.74987,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 20,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718201.914268,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 21,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718261.068672,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 22,
+        "hp": 77,
+        "ep": 8,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718320.3288178,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 23,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718379.920934,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 24,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718439.076976,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 25,
+        "hp": 77,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Jungle",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718498.251631,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 26,
+        "hp": 77,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Jungle",
+        "is_death_zone": false,
+        "local_enemies": 4,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718557.597981,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 27,
+        "hp": 77,
+        "ep": 8,
+        "action_type": "move",
+        "region": "Jungle",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718616.7691,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 28,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Jungle",
+        "is_death_zone": false,
+        "local_enemies": 4,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718676.1859891,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 29,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Jungle",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718735.4808,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 30,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 5,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718794.6313338,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 31,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 5,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773718853.772037,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 32,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718912.894104,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 33,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773718972.082172,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 34,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 5,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773719031.195426,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 35,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Windmill",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773719090.436478,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 36,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719149.5882602,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 37,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719208.768111,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 38,
+        "hp": 70,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Junkyard",
+        "is_death_zone": false,
+        "local_enemies": 15,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719267.897295,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 39,
+        "hp": 70,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Junkyard",
+        "is_death_zone": false,
+        "local_enemies": 13,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719327.211435,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 40,
+        "hp": 70,
+        "ep": 8,
+        "action_type": "move",
+        "region": "Junkyard",
+        "is_death_zone": false,
+        "local_enemies": 7,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719386.740196,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 41,
+        "hp": 38,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Junkyard",
+        "is_death_zone": false,
+        "local_enemies": 10,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719446.1200361,
+        "inv_heal_count": 3,
+        "inv_heal_hp": 70,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 3,
+          "currency": 1,
+          "weapon": 1
+        }
+      },
+      {
+        "turn": 42,
+        "hp": 48,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Junkyard",
+        "is_death_zone": false,
+        "local_enemies": 11,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773719505.304686,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "knife",
+        "inv_weapon_bonus": 5,
+        "inv_total": 5,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1,
+          "weapon": 1,
+          "utility": 1
+        }
+      }
+    ],
+    "kills": 5,
+    "deaths_caused": 0,
+    "items_collected": [
+      "emergency_food",
+      "knife",
+      "reward1",
+      "emergency_food",
+      "reward1",
+      "megaphone"
+    ],
+    "items_used": [
+      {
+        "item_id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+        "type_id": "bandage",
+        "hp_before": 38,
+        "hp_restored": 30,
+        "hp_after": 68,
+        "context": "combat",
+        "timestamp": 1773719446.1203861
+      },
+      {
+        "item_id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+        "type_id": "emergency_food",
+        "hp_before": 48,
+        "hp_restored": 20,
+        "hp_after": 68,
+        "context": "combat",
+        "timestamp": 1773719505.304714
+      }
+    ],
+    "regions_visited": [
+      "bf6943ff-0947-488b-bff2-f888fe3bd1d5",
+      "bc1265c1-153f-49ac-b4c7-a3a50e8ca5ba",
+      "854b9e6b-6df3-408c-bb69-34555de84cf2",
+      "988a9331-ebee-4f12-9a83-29a5f43c0ead",
+      "39e48da4-7c8e-4cd9-8c45-d02ebbad7ab5",
+      "4f1cc80e-d03a-4984-9add-a5639cc1066b",
+      "d47c5a04-264d-420a-be5a-f301f2debd42",
+      "5b14a252-040f-48bf-82e2-e57ec372aa5b",
+      "249e9613-7a60-42aa-9b1f-7f2c0365f25e"
+    ],
+    "combat_outcomes": [
+      {
+        "target_id": "29695a80-42af-4c76-b3da-10b70a0fbc79",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 9,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": "29695a80-42af-4c76-b3da-10b70a0fbc79",
+        "damage_dealt": 8,
+        "damage_taken": 0,
+        "timestamp": 1773717195.210737,
+        "my_stats": {
+          "hp": 100,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 170,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 9,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 8,
+        "damage_taken": 0,
+        "timestamp": 1773717432.2409558,
+        "my_stats": {
+          "hp": 100,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 170,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 8,
+        "damage_taken": 23,
+        "timestamp": 1773717491.629278,
+        "my_stats": {
+          "hp": 100,
+          "ep": 10,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 170,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+        "target_type": "monster",
+        "target_hp": 11,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773717550.6054778,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 11,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+        "target_type": "monster",
+        "target_hp": 11,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": "a1d88929-48ea-42a8-9621-7850307d8cc6",
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773717609.948915,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 11,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "b4755077-384a-42d3-84b1-35dc57a79362",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 8,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773717788.2798421,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 8,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "b4755077-384a-42d3-84b1-35dc57a79362",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 8,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773717846.890184,
+        "my_stats": {
+          "hp": 77,
+          "ep": 10,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 8,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "47f232af-6478-435b-b9e3-69b3912fbb24",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 7,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718261.0689101,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 7,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "47f232af-6478-435b-b9e3-69b3912fbb24",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 7,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718320.328856,
+        "my_stats": {
+          "hp": 77,
+          "ep": 10,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 7,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "ddc0c393-c9bb-4541-a3b5-6969b1b9f466",
+        "target_type": "agent",
+        "target_hp": 79,
+        "target_atk": 7,
+        "target_def": 6,
+        "target_weapon": "fist",
+        "won": "ddc0c393-c9bb-4541-a3b5-6969b1b9f466",
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718439.0770051,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 79,
+          "atk": 7,
+          "def": 6,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "0170e599-a5a4-4735-9422-ddf0d77d0a2c",
+        "target_type": "agent",
+        "target_hp": 77,
+        "target_atk": 9,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718557.598005,
+        "my_stats": {
+          "hp": 77,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 77,
+          "atk": 9,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "0170e599-a5a4-4735-9422-ddf0d77d0a2c",
+        "target_type": "agent",
+        "target_hp": 77,
+        "target_atk": 9,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718616.7693079,
+        "my_stats": {
+          "hp": 77,
+          "ep": 10,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 147,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 77,
+          "atk": 9,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "c5933668-6725-464d-b71d-fca6e6310861",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 8,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": "c5933668-6725-464d-b71d-fca6e6310861",
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718735.480819,
+        "my_stats": {
+          "hp": 70,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 140,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "c5933668-6725-464d-b71d-fca6e6310861",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 8,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": "c5933668-6725-464d-b71d-fca6e6310861",
+        "damage_dealt": 12,
+        "damage_taken": 0,
+        "timestamp": 1773718972.082506,
+        "my_stats": {
+          "hp": 70,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 140,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "94f58e65-cd70-4f36-bcc1-52b5712edde7",
+        "target_type": "agent",
+        "target_hp": 23,
+        "target_atk": 8,
+        "target_def": 4,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773719327.211487,
+        "my_stats": {
+          "hp": 70,
+          "ep": 9,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 140,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 23,
+          "atk": 8,
+          "def": 4,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "94f58e65-cd70-4f36-bcc1-52b5712edde7",
+        "target_type": "agent",
+        "target_hp": 7,
+        "target_atk": 8,
+        "target_def": 4,
+        "target_weapon": "fist",
+        "won": true,
+        "damage_dealt": 13,
+        "damage_taken": 0,
+        "timestamp": 1773719386.740247,
+        "my_stats": {
+          "hp": 70,
+          "ep": 10,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 5,
+          "weapon_range": 0,
+          "heal_hp_total": 70,
+          "heal_ep_total": 0,
+          "heal_count": 3,
+          "best_heal_hp": 30,
+          "effective_hp": 140,
+          "inventory": [
+            {
+              "id": "fda7797e-6eca-40a0-b2e6-b25148429760",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "b5838359-9b5a-4ba0-9c70-c2434d939a27",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "687bc375-7a2f-478e-bef7-402e07e00cde",
+              "typeId": "bandage",
+              "name": "Bandage",
+              "description": "Restores 30 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 30,
+              "epRestore": 0
+            },
+            {
+              "id": "2cfa6888-7889-4dd9-8f31-ce9901629e54",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 15
+            },
+            {
+              "id": "e478d955-2382-4f59-9234-8351499520ce",
+              "typeId": "knife",
+              "name": "Dagger",
+              "description": "Low-tier melee weapon",
+              "category": "weapon",
+              "stackable": false,
+              "quantity": 1,
+              "atkBonus": 5,
+              "range": 0,
+              "epCost": 1
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 7,
+          "atk": 8,
+          "def": 4,
+          "weapon_bonus": 0
+        },
+        "heals_used": 2,
+        "hp_healed_in_combat": 50
+      }
+    ],
+    "death_zone_escapes": 0,
+    "final_rank": 99,
+    "final_hp": 0,
+    "is_winner": false,
+    "moltz_earned": 0,
+    "death_cause": null,
+    "strategies_used": [],
+    "end_time": "2026-03-17T03:58:48.193425",
+    "turns_played": 42
+  },
+  {
+    "game_id": "d104e073-ff7b-420f-9a01-38eaaeabd295",
+    "agent_id": "83d3d836-cb0d-46e1-9548-223d1b952d94",
+    "agent_name": "elcuan",
+    "start_time": "2026-03-17T04:07:33.616768",
+    "turns": [
+      {
+        "turn": 1,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Reactor",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773720454.021299,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 2,
+        "hp": 100,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720513.3973382,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 3,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720572.6397052,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 4,
+        "hp": 76,
+        "ep": 8,
+        "action_type": "attack",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720631.782775,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 5,
+        "hp": 76,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720691.0378182,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 6,
+        "hp": 76,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 4,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720750.143182,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 7,
+        "hp": 76,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Plaza",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720809.486078,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 8,
+        "hp": 76,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Court",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773720868.612763,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 9,
+        "hp": 76,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Court",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773720927.869039,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 10,
+        "hp": 76,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773720987.210552,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 11,
+        "hp": 76,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721046.4275389,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 12,
+        "hp": 52,
+        "ep": 8,
+        "action_type": "use_item",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721105.569924,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 13,
+        "hp": 52,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721164.817433,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 14,
+        "hp": 72,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721223.939657,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 15,
+        "hp": 72,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721283.180325,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 16,
+        "hp": 48,
+        "ep": 8,
+        "action_type": "use_item",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721342.297193,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 17,
+        "hp": 38,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721401.569994,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 18,
+        "hp": 58,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721460.684402,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 19,
+        "hp": 58,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Park",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773721519.914031,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 20,
+        "hp": 48,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Farmhouse",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773721579.087765,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 21,
+        "hp": 48,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Farmhouse",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773721638.4665558,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 22,
+        "hp": 48,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Bridge",
+        "is_death_zone": true,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773721697.6088262,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 1
+        }
+      }
+    ],
+    "kills": 2,
+    "deaths_caused": 0,
+    "items_collected": [
+      "bandage",
+      "megaphone",
+      "reward1"
+    ],
+    "items_used": [
+      {
+        "item_id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+        "type_id": "emergency_food",
+        "hp_before": 52,
+        "hp_restored": 20,
+        "hp_after": 72,
+        "context": "combat",
+        "timestamp": 1773721105.569937
+      },
+      {
+        "item_id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+        "type_id": "emergency_food",
+        "hp_before": 52,
+        "hp_restored": 20,
+        "hp_after": 72,
+        "context": "combat",
+        "timestamp": 1773721164.817465
+      },
+      {
+        "item_id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+        "type_id": "emergency_food",
+        "hp_before": 48,
+        "hp_restored": 20,
+        "hp_after": 68,
+        "context": "combat",
+        "timestamp": 1773721342.297229
+      },
+      {
+        "item_id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+        "type_id": "emergency_food",
+        "hp_before": 38,
+        "hp_restored": 20,
+        "hp_after": 58,
+        "context": "combat",
+        "timestamp": 1773721401.570019
+      }
+    ],
+    "regions_visited": [
+      "f2c590b5-c9d8-4e2c-a189-0758cde72ab8",
+      "5d9bded4-0498-42ef-b072-ee17c5b283a5",
+      "060c273a-79be-476d-90ec-73292deaadde",
+      "05883e16-bd10-41aa-8b32-755b48de8d41",
+      "f568867d-2cb4-4974-897d-4c2fd412f6bc",
+      "97441107-ab92-4334-a5fe-f7fea14c7d1f"
+    ],
+    "combat_outcomes": [
+      {
+        "target_id": "e22a4aad-13bf-4758-8325-84e0d6736a09",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 24,
+        "timestamp": 1773720631.782808,
+        "my_stats": {
+          "hp": 100,
+          "ep": 10,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 140,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "e22a4aad-13bf-4758-8325-84e0d6736a09",
+        "target_type": "monster",
+        "target_hp": 14,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 0,
+        "timestamp": 1773720691.0378299,
+        "my_stats": {
+          "hp": 76,
+          "ep": 8,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 116,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 14,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "09d907bb-7981-4ec8-87af-e9b83fc9ae9b",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 7,
+        "target_def": 4,
+        "target_weapon": "fist",
+        "won": "09d907bb-7981-4ec8-87af-e9b83fc9ae9b",
+        "damage_dealt": 10,
+        "damage_taken": 0,
+        "timestamp": 1773720750.1432152,
+        "my_stats": {
+          "hp": 76,
+          "ep": 9,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 116,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 7,
+          "def": 4,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "bcbed6e9-4c9e-45fd-bf2c-e33e479da973",
+        "target_type": "agent",
+        "target_hp": 100,
+        "target_atk": 7,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": "bcbed6e9-4c9e-45fd-bf2c-e33e479da973",
+        "damage_dealt": 9,
+        "damage_taken": 0,
+        "timestamp": 1773720809.486096,
+        "my_stats": {
+          "hp": 76,
+          "ep": 10,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 116,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 100,
+          "atk": 7,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 0,
+        "timestamp": 1773721046.4275541,
+        "my_stats": {
+          "hp": 76,
+          "ep": 9,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 116,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        },
+        "heals_used": 1,
+        "hp_healed_in_combat": 20
+      },
+      {
+        "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 24,
+        "timestamp": 1773721105.569951,
+        "my_stats": {
+          "hp": 76,
+          "ep": 10,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 40,
+          "heal_ep_total": 0,
+          "heal_count": 2,
+          "best_heal_hp": 20,
+          "effective_hp": 116,
+          "inventory": [
+            {
+              "id": "eccc08f6-f372-49b8-8219-cfedc767a161",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+              "typeId": "megaphone",
+              "name": "Megaphone",
+              "description": "Broadcast to all (single use)",
+              "category": "utility",
+              "stackable": false,
+              "quantity": 1,
+              "effect": "broadcast",
+              "useType": "consumable"
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        },
+        "heals_used": 1,
+        "hp_healed_in_combat": 20
+      },
+      {
+        "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+        "target_type": "monster",
+        "target_hp": 14,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 0,
+        "timestamp": 1773721283.180356,
+        "my_stats": {
+          "hp": 72,
+          "ep": 9,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 92,
+          "inventory": [
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+              "typeId": "megaphone",
+              "name": "Megaphone",
+              "description": "Broadcast to all (single use)",
+              "category": "utility",
+              "stackable": false,
+              "quantity": 1,
+              "effect": "broadcast",
+              "useType": "consumable"
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 14,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        },
+        "heals_used": 1,
+        "hp_healed_in_combat": 20
+      },
+      {
+        "target_id": "edff50b7-7e32-457b-92dd-231701308b51",
+        "target_type": "monster",
+        "target_hp": 14,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 10,
+        "damage_taken": 24,
+        "timestamp": 1773721342.2972732,
+        "my_stats": {
+          "hp": 72,
+          "ep": 10,
+          "atk": 12,
+          "def": 3,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 92,
+          "inventory": [
+            {
+              "id": "a673ac56-aa30-4f33-98ac-72a534ebd341",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "fde6d4e2-8a6d-48b7-b452-affaef49420d",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 5
+            },
+            {
+              "id": "75e9c9d0-19fc-4f93-ab92-2edcd851cc80",
+              "typeId": "megaphone",
+              "name": "Megaphone",
+              "description": "Broadcast to all (single use)",
+              "category": "utility",
+              "stackable": false,
+              "quantity": 1,
+              "effect": "broadcast",
+              "useType": "consumable"
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 14,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        },
+        "heals_used": 1,
+        "hp_healed_in_combat": 20
+      }
+    ],
+    "death_zone_escapes": 1,
+    "final_rank": 99,
+    "final_hp": 0,
+    "is_winner": false,
+    "moltz_earned": 0,
+    "death_cause": "death_zone",
+    "strategies_used": [],
+    "end_time": "2026-03-17T04:35:20.917393",
+    "turns_played": 22
+  },
+  {
+    "game_id": "8f40c695-e387-4b25-9e23-c562f3610af3",
+    "agent_id": "da6cffe4-d0bc-4bc0-bbff-218216219037",
+    "agent_name": "elcuan",
+    "start_time": "2026-03-17T06:56:58.213621",
+    "turns": [
+      {
+        "turn": 1,
+        "hp": 100,
+        "ep": 10,
+        "action_type": "move",
+        "region": "River",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730618.8602188,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 2,
+        "hp": 100,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Volcano",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730677.991859,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 3,
+        "hp": 94,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Volcano",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730737.123389,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 4,
+        "hp": 88,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730796.317386,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 5,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730855.4552052,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 6,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "explore",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730914.5706391,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 7,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "explore",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773730973.6961012,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 8,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731032.830354,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 9,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731091.9402728,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 10,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "explore",
+        "region": "Museum",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731151.071274,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 11,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "explore",
+        "region": "Museum",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731210.181953,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 12,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Museum",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731269.311894,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 13,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Museum",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731328.423149,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 14,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Alley",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773731387.539069,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 15,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Alley",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 1,
+        "success": true,
+        "timestamp": 1773731446.754307,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 16,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Pier",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731505.872921,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 17,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "explore",
+        "region": "Pier",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731565.008071,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 18,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Pier",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731624.225655,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 19,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Pier",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731683.444322,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 20,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Bunker",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731742.663441,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 21,
+        "hp": 74,
+        "ep": 10,
+        "action_type": "attack",
+        "region": "Bunker",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731801.9276001,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 22,
+        "hp": 74,
+        "ep": 8,
+        "action_type": "attack",
+        "region": "Bunker",
+        "is_death_zone": false,
+        "local_enemies": 3,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731861.069779,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 23,
+        "hp": 74,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Bunker",
+        "is_death_zone": false,
+        "local_enemies": 2,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731920.64451,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "recovery": 1,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 24,
+        "hp": 59,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Castle",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773731979.805183,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 25,
+        "hp": 59,
+        "ep": 10,
+        "action_type": "use_item",
+        "region": "Castle",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732039.3729239,
+        "inv_heal_count": 2,
+        "inv_heal_hp": 40,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "recovery": 2,
+          "currency": 1
+        }
+      },
+      {
+        "turn": 26,
+        "hp": 79,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Castle",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732098.481995,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1
+        }
+      },
+      {
+        "turn": 27,
+        "hp": 79,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Castle",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732157.6401868,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1
+        }
+      },
+      {
+        "turn": 28,
+        "hp": 79,
+        "ep": 9,
+        "action_type": "attack",
+        "region": "Mountain",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732217.020475,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 2,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1
+        }
+      },
+      {
+        "turn": 29,
+        "hp": 79,
+        "ep": 10,
+        "action_type": "explore",
+        "region": "Mountain",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732276.939553,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 30,
+        "hp": 79,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Mountain",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732336.180269,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 31,
+        "hp": 79,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Mountain",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732395.4294028,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 32,
+        "hp": 79,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732454.924342,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 1
+        }
+      },
+      {
+        "turn": 33,
+        "hp": 79,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Barracks",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732514.073805,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 34,
+        "hp": 25.39999999999988,
+        "ep": 9,
+        "action_type": "use_item",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732573.2575848,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 35,
+        "hp": 25.39999999999988,
+        "ep": 10,
+        "action_type": "use_item",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732632.3786,
+        "inv_heal_count": 1,
+        "inv_heal_hp": 20,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 4,
+        "inv_categories": {
+          "currency": 1,
+          "recovery": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 36,
+        "hp": 45.4,
+        "ep": 9,
+        "action_type": "rest",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 0,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732691.5298738,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 37,
+        "hp": 45.4,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Theater",
+        "is_death_zone": false,
+        "local_enemies": 1,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732750.69639,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 38,
+        "hp": 45.4,
+        "ep": 9,
+        "action_type": "move",
+        "region": "Mall",
+        "is_death_zone": false,
+        "local_enemies": 7,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732809.845792,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 2
+        }
+      },
+      {
+        "turn": 39,
+        "hp": 5.4,
+        "ep": 10,
+        "action_type": "move",
+        "region": "Mall",
+        "is_death_zone": false,
+        "local_enemies": 6,
+        "local_monsters": 0,
+        "success": true,
+        "timestamp": 1773732868.984642,
+        "inv_heal_count": 0,
+        "inv_heal_hp": 0,
+        "inv_weapon": "fist",
+        "inv_weapon_bonus": 0,
+        "inv_total": 3,
+        "inv_categories": {
+          "currency": 1,
+          "utility": 2
+        }
+      }
+    ],
+    "kills": 3,
+    "deaths_caused": 0,
+    "items_collected": [
+      "reward1",
+      "emergency_food",
+      "megaphone",
+      "megaphone"
+    ],
+    "items_used": [
+      {
+        "item_id": "2cb91763-7d52-4966-9406-448248d75c09",
+        "type_id": "emergency_food",
+        "hp_before": 59,
+        "hp_restored": 20,
+        "hp_after": 79,
+        "context": "passive",
+        "timestamp": 1773731979.805225
+      },
+      {
+        "item_id": "2cb91763-7d52-4966-9406-448248d75c09",
+        "type_id": "emergency_food",
+        "hp_before": 59,
+        "hp_restored": 20,
+        "hp_after": 79,
+        "context": "passive",
+        "timestamp": 1773732039.373055
+      },
+      {
+        "item_id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+        "type_id": "emergency_food",
+        "hp_before": 25.39999999999988,
+        "hp_restored": 20,
+        "hp_after": 45.39999999999988,
+        "context": "combat",
+        "timestamp": 1773732573.257726
+      },
+      {
+        "item_id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+        "type_id": "emergency_food",
+        "hp_before": 25.39999999999988,
+        "hp_restored": 20,
+        "hp_after": 45.39999999999988,
+        "context": "passive",
+        "timestamp": 1773732632.379736
+      }
+    ],
+    "regions_visited": [
+      "6d06e768-231b-44c7-87f9-40d5d088142e",
+      "bc6ffb04-76fd-4d70-868c-65bc16f5fee5",
+      "c15b39d5-dacb-48b4-8f9b-f232fb59d9cf",
+      "333a0aa0-f7d1-4f6b-a4db-f13dab9628a6",
+      "dc6102fa-5bd5-4e9d-aa61-e3a7a88ed695",
+      "e907f821-3922-466e-a595-412fd49ba3e8",
+      "2380285c-a180-4713-9ef2-4d01ad1fba3c",
+      "79435be2-2ff0-4c3d-bbc9-a44a61506099",
+      "16627ee2-a155-4a7a-990b-0b634839f9e6",
+      "897dc5c6-fe8e-4b46-9dbe-1a2d492510b8",
+      "277e2264-af57-4cf8-b1ae-2c7fb6b1f9ee",
+      "900b797e-4959-4fb8-aab3-a8f125100538",
+      "7e56156c-638b-4f3e-9be9-dbb4ef6f1cba"
+    ],
+    "combat_outcomes": [
+      {
+        "target_id": "5a9bf205-7cf6-4d37-9b43-d7040fa30368",
+        "target_type": "monster",
+        "target_hp": 25,
+        "target_atk": 25,
+        "target_def": 3,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 6,
+        "damage_taken": 0,
+        "timestamp": 1773731446.754356,
+        "my_stats": {
+          "hp": 74,
+          "ep": 9,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 94,
+          "inventory": [
+            {
+              "id": "2cb91763-7d52-4966-9406-448248d75c09",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 12
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 25,
+          "atk": 25,
+          "def": 3,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "d32c3d02-e708-4f0e-8129-001a474e569f",
+        "target_type": "agent",
+        "target_hp": 37,
+        "target_atk": 10,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": false,
+        "damage_dealt": 5,
+        "damage_taken": 0,
+        "timestamp": 1773731861.069835,
+        "my_stats": {
+          "hp": 74,
+          "ep": 10,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 94,
+          "inventory": [
+            {
+              "id": "2cb91763-7d52-4966-9406-448248d75c09",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 12
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 37,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "d32c3d02-e708-4f0e-8129-001a474e569f",
+        "target_type": "agent",
+        "target_hp": 16,
+        "target_atk": 10,
+        "target_def": 5,
+        "target_weapon": "fist",
+        "won": "d32c3d02-e708-4f0e-8129-001a474e569f",
+        "damage_dealt": 5,
+        "damage_taken": 0,
+        "timestamp": 1773731920.644565,
+        "my_stats": {
+          "hp": 74,
+          "ep": 8,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 94,
+          "inventory": [
+            {
+              "id": "2cb91763-7d52-4966-9406-448248d75c09",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            },
+            {
+              "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 12
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 16,
+          "atk": 10,
+          "def": 5,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+        "target_type": "agent",
+        "target_hp": 56,
+        "target_atk": 7,
+        "target_def": 4,
+        "target_weapon": "fist",
+        "won": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+        "damage_dealt": 6,
+        "damage_taken": 0,
+        "timestamp": 1773732157.640398,
+        "my_stats": {
+          "hp": 79,
+          "ep": 9,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 99,
+          "inventory": [
+            {
+              "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 12
+            },
+            {
+              "id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 56,
+          "atk": 7,
+          "def": 4,
+          "weapon_bonus": 0
+        }
+      },
+      {
+        "target_id": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+        "target_type": "agent",
+        "target_hp": 76,
+        "target_atk": 7,
+        "target_def": 4,
+        "target_weapon": "fist",
+        "won": "7420aff1-a268-4e7e-96c2-f68a2cfdb34b",
+        "damage_dealt": 6,
+        "damage_taken": 0,
+        "timestamp": 1773732276.9433868,
+        "my_stats": {
+          "hp": 79,
+          "ep": 9,
+          "atk": 8,
+          "def": 5,
+          "weapon_bonus": 0,
+          "weapon_range": 0,
+          "heal_hp_total": 20,
+          "heal_ep_total": 0,
+          "heal_count": 1,
+          "best_heal_hp": 20,
+          "effective_hp": 99,
+          "inventory": [
+            {
+              "id": "242a5739-9951-4555-a50a-f2d2bfd22725",
+              "typeId": "reward1",
+              "name": "$Moltz",
+              "description": "In-game rewards. Collected on victory to account balance.",
+              "category": "currency",
+              "stackable": true,
+              "quantity": 12
+            },
+            {
+              "id": "415cd1c7-b4d0-46f5-a20f-d73447dd5368",
+              "typeId": "emergency_food",
+              "name": "Emergency rations",
+              "description": "Restores 20 HP",
+              "category": "recovery",
+              "stackable": true,
+              "quantity": 1,
+              "hpRestore": 20,
+              "epRestore": 0
+            }
+          ]
+        },
+        "enemy_stats": {
+          "hp": 76,
+          "atk": 7,
+          "def": 4,
+          "weapon_bonus": 0
+        },
+        "heals_used": 1,
+        "hp_healed_in_combat": 20
+      }
+    ],
+    "death_zone_escapes": 0,
+    "final_rank": 99,
+    "final_hp": 0,
+    "is_winner": false,
+    "moltz_earned": 0,
+    "death_cause": "battle",
+    "strategies_used": [],
+    "end_time": "2026-03-17T07:41:32.331915",
+    "turns_played": 39
+  },
+  {
+    "game_id": "1ac66d66-e001-4e4a-bd94-79fe6ecc0504",
+    "agent_id": "f3c598b7-7b40-4828-a86a-6bf77098a95c",
+    "agent_name": "elcuan",
+    "start_time": "2026-03-17T13:48:03.579975",
+    "turns": [],
+    "kills": 0,
+    "deaths_caused": 0,
+    "items_collected": [],
+    "items_used": [],
+    "regions_visited": [],
+    "combat_outcomes": [],
+    "death_zone_escapes": 0,
+    "final_rank": 99,
+    "final_hp": 0,
+    "is_winner": false,
+    "moltz_earned": 0,
+    "death_cause": null,
+    "strategies_used": [],
+    "end_time": "2026-03-17T13:55:06.539991",
+    "turns_played": 0
+  }
+]

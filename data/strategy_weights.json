@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0",
+  "updated_at": "2026-03-17T03:10:41.860820",
+  "games_played": 4,
+  "action_weights": {
+    "explore_vs_move": 0.505,
+    "attack_vs_evade": 0.588,
+    "heal_threshold": 0.3,
+    "rest_threshold": 0.3,
+    "use_facility": 0.7,
+    "flee_when_losing": 0.71
+  },
+  "terrain_scores": {
+    "plains": 0.5,
+    "forest": 0.6,
+    "hills": 0.7,
+    "ruins": 0.65,
+    "water": 0.3
+  },
+  "phase_aggression": {
+    "early": 0.5,
+    "mid": 0.7,
+    "late": 0.9
+  },
+  "attack_threshold": 0.66,
+  "learning_rate": 0.1
+}

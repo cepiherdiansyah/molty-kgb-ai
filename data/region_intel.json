@@ -1,0 +1,198 @@
+{
+  "bf6943ff-0947-488b-bff2-f888fe3bd1d5": {
+    "name": "Plaza",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 1
+  },
+  "bc1265c1-153f-49ac-b4c7-a3a50e8ca5ba": {
+    "name": "Garden",
+    "terrain": "forest",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "854b9e6b-6df3-408c-bb69-34555de84cf2": {
+    "name": "Fort",
+    "terrain": "ruins",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "988a9331-ebee-4f12-9a83-29a5f43c0ead": {
+    "name": "Temple",
+    "terrain": "water",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 10
+  },
+  "39e48da4-7c8e-4cd9-8c45-d02ebbad7ab5": {
+    "name": "Lab",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "4f1cc80e-d03a-4984-9add-a5639cc1066b": {
+    "name": "Windmill",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 9
+  },
+  "d47c5a04-264d-420a-be5a-f301f2debd42": {
+    "name": "Jungle",
+    "terrain": "water",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 5
+  },
+  "5b14a252-040f-48bf-82e2-e57ec372aa5b": {
+    "name": "Theater",
+    "terrain": "water",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "249e9613-7a60-42aa-9b1f-7f2c0365f25e": {
+    "name": "Junkyard",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 5
+  },
+  "f2c590b5-c9d8-4e2c-a189-0758cde72ab8": {
+    "name": "Reactor",
+    "terrain": "cave",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 1
+  },
+  "5d9bded4-0498-42ef-b072-ee17c5b283a5": {
+    "name": "Plaza",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 6
+  },
+  "060c273a-79be-476d-90ec-73292deaadde": {
+    "name": "Court",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "05883e16-bd10-41aa-8b32-755b48de8d41": {
+    "name": "Park",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 10
+  },
+  "f568867d-2cb4-4974-897d-4c2fd412f6bc": {
+    "name": "Farmhouse",
+    "terrain": "cave",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "97441107-ab92-4334-a5fe-f7fea14c7d1f": {
+    "name": "Bridge",
+    "terrain": "water",
+    "was_dz": true,
+    "dz_count": 1,
+    "visit_count": 1
+  },
+  "6d06e768-231b-44c7-87f9-40d5d088142e": {
+    "name": "River",
+    "terrain": "ruins",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 1
+  },
+  "bc6ffb04-76fd-4d70-868c-65bc16f5fee5": {
+    "name": "Volcano",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "c15b39d5-dacb-48b4-8f9b-f232fb59d9cf": {
+    "name": "Theater",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "333a0aa0-f7d1-4f6b-a4db-f13dab9628a6": {
+    "name": "Barracks",
+    "terrain": "ruins",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "dc6102fa-5bd5-4e9d-aa61-e3a7a88ed695": {
+    "name": "Museum",
+    "terrain": "water",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "e907f821-3922-466e-a595-412fd49ba3e8": {
+    "name": "Alley",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "2380285c-a180-4713-9ef2-4d01ad1fba3c": {
+    "name": "Pier",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "79435be2-2ff0-4c3d-bbc9-a44a61506099": {
+    "name": "Bunker",
+    "terrain": "plains",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "16627ee2-a155-4a7a-990b-0b634839f9e6": {
+    "name": "Castle",
+    "terrain": "forest",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "897dc5c6-fe8e-4b46-9dbe-1a2d492510b8": {
+    "name": "Mountain",
+    "terrain": "forest",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "277e2264-af57-4cf8-b1ae-2c7fb6b1f9ee": {
+    "name": "Barracks",
+    "terrain": "cave",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  },
+  "900b797e-4959-4fb8-aab3-a8f125100538": {
+    "name": "Theater",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
+  },
+  "7e56156c-638b-4f3e-9be9-dbb4ef6f1cba": {
+    "name": "Mall",
+    "terrain": "forest",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 2
+  }
+}

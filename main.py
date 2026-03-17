@@ -481,8 +481,43 @@ class GameLoop:
                                     _time.sleep(60)
                         continue
                     elif e.code == "ONE_AGENT_PER_API_KEY":
-                        logger.warning("Already have an agent in this game type, skipping")
-                        return False
+                        # API key already has an agent in a running game
+                        # Must wait for that game to finish before joining a new one
+                        logger.warning(
+                            "ONE_AGENT_PER_API_KEY — already in a game, checking account..."
+                        )
+                        status = self.ensure_account()
+                        if status == "waiting":
+                            gid = getattr(self, "_active_game_id", None)
+                            if gid:
+                                self.wait_for_current_game_to_finish(gid)
+                            else:
+                                # Fallback: fetch account and find active game
+                                try:
+                                    account = self.api.get_account()
+                                    current_games = (
+                                        account.get("currentGames") or
+                                        account.get("activeGames") or
+                                        []
+                                    )
+                                    if isinstance(current_games, dict):
+                                        current_games = [current_games]
+                                    for g in current_games:
+                                        gid = g.get("gameId") or g.get("id", "")
+                                        if gid:
+                                            self.wait_for_current_game_to_finish(gid)
+                                            break
+                                    else:
+                                        logger.warning("No active game found, waiting 60s...")
+                                        _time.sleep(60)
+                                except Exception as ex:
+                                    logger.warning(f"Failed to fetch account: {ex}, waiting 60s...")
+                                    _time.sleep(60)
+                        elif status == "resume":
+                            # Already in running game, resume playing
+                            self.game_id = getattr(self, "_active_game_id", None)
+                            return True
+                        continue
                     elif e.code == "MAX_AGENTS_REACHED":
                         logger.warning("Room full — retrying instantly")
                         continue  # No sleep, snipe next room
