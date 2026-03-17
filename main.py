@@ -151,6 +151,9 @@ class GameLoop:
         logger.info("=" * 60)
         logger.info("  MOLTY ROYALE BOT - STARTING UP")
         logger.info("=" * 60)
+        # Show configured agent name early
+        _configured_name = AGENT_NAME or "(will fetch from server)"
+        logger.info(f"  Agent   : {_configured_name}")
         logger.info(f"  Server  : {BASE_URL}")
         logger.info(f"  Game    : {PREFERRED_GAME_TYPE.upper()} rooms")
 
@@ -229,9 +232,9 @@ class GameLoop:
         try:
             account = self.api.get_account()
             self.agent_name = AGENT_NAME or account.get("name", "UnknownAgent")
-            
-            logger.info(f"Account: {self.agent_name} | "
-                        f"Balance: {account.get('balance')} $Moltz | "
+
+            logger.info(f"✅ Connected as: {self.agent_name}")
+            logger.info(f"   Balance: {account.get('balance')} $Moltz | "
                         f"Wins: {account.get('totalWins')}/{account.get('totalGames')}")
 
             # ── Wallet Registration & Status Check ────────────────────
@@ -315,7 +318,7 @@ class GameLoop:
         Server tidak mengizinkan 1 akun di 2 game sekaligus.
         """
         logger.info(
-            f"Waiting for current game {game_id[:8]}... to finish "
+            f"[{self.agent_name}] Waiting for current game {game_id[:8]}... to finish "
             f"(cannot join new game while in active game)"
         )
         poll = 0
@@ -326,7 +329,7 @@ class GameLoop:
                 alive  = game.get("aliveCount", game.get("alive_count", "?"))
 
                 if status == "finished":
-                    logger.info(f"Game {game_id[:8]}... finished! Ready to join new game.")
+                    logger.info(f"[{self.agent_name}] Game {game_id[:8]}... finished! Ready to join new game.")
                     return
 
                 poll += 1
@@ -417,7 +420,7 @@ class GameLoop:
                     self._write_sync_game_id("")
                 logger.warning("Published game join failed: %s", e)
 
-        logger.info("🎯 Room hunting started — aggressive mode (every %ds)", ROOM_HUNT_INTERVAL)
+        logger.info(f"🎯 [{self.agent_name}] Room hunting started — aggressive mode (every %ds)", ROOM_HUNT_INTERVAL)
 
         while True:
             attempt += 1
@@ -432,7 +435,7 @@ class GameLoop:
                 game_id = game["id"]
                 elapsed = _time.time() - hunt_start
                 logger.info(
-                    f"⚡ Found room: {game.get('name')} (ID: {game_id}) "
+                    f"⚡ [{self.agent_name}] Found room: {game.get('name')} (ID: {game_id}) "
                     f"after {elapsed:.1f}s / {attempt} attempts"
                 )
 
@@ -443,7 +446,7 @@ class GameLoop:
                     self._write_sync_game_id(game_id)
                     join_time = _time.time() - hunt_start
                     logger.info(
-                        f"✅ Registered as '{self.agent_name}' | "
+                        f"✅ [{self.agent_name}] Registered | "
                         f"Agent ID: {self.agent_id} | "
                         f"Join time: {join_time:.1f}s"
                     )
@@ -484,7 +487,7 @@ class GameLoop:
                         # API key already has an agent in a running game
                         # Must wait for that game to finish before joining a new one
                         logger.warning(
-                            "ONE_AGENT_PER_API_KEY — already in a game, checking account..."
+                            f"[{self.agent_name}] ONE_AGENT_PER_API_KEY — already in a game, checking account..."
                         )
                         status = self.ensure_account()
                         if status == "waiting":
@@ -545,7 +548,7 @@ class GameLoop:
             else:
                 if attempt % 10 == 1:
                     logger.info(
-                        f"🔍 Hunting for {PREFERRED_GAME_TYPE} rooms... "
+                        f"🔍 [{self.agent_name}] Hunting for {PREFERRED_GAME_TYPE} rooms... "
                         f"(attempt #{attempt}, {_time.time() - hunt_start:.0f}s elapsed)"
                     )
 
