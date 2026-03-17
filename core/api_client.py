@@ -27,16 +27,35 @@ class APIClient:
     Handles authentication, retries, and error normalization.
     """
 
-    def __init__(self, base_url: str, api_key: str):
+    def __init__(self, base_url: str, api_key: Any):
         self.base_url = base_url.rstrip("/")
-        self.api_key = api_key
+        self._api_keys = self._normalize_api_keys(api_key)
+        self._api_key_index = 0
+        self.api_key = self._api_keys[self._api_key_index]
         self.session = requests.Session()
         self.session.headers.update({
             "Content-Type": "application/json",
-            "X-API-Key": api_key
+            "X-API-Key": self.api_key
         })
         self._request_count = 0
         self._last_request_time = 0.0
+
+    def _normalize_api_keys(self, api_key: Any) -> list:
+        if isinstance(api_key, (list, tuple)):
+            keys = [str(k).strip() for k in api_key if str(k).strip()]
+        else:
+            keys = [str(api_key).strip()] if str(api_key).strip() else []
+        if not keys:
+            raise ValueError("API key is required")
+        return keys
+
+    def _rotate_api_key(self) -> bool:
+        if len(self._api_keys) <= 1:
+            return False
+        self._api_key_index = (self._api_key_index + 1) % len(self._api_keys)
+        self.api_key = self._api_keys[self._api_key_index]
+        self.session.headers.update({"X-API-Key": self.api_key})
+        return True
 
     # -------------------------------------------------------------------------
     # CORE HTTP METHODS
@@ -76,6 +95,13 @@ class APIClient:
                     }
                     if code in non_retryable:
                         raise APIError(msg, code)
+
+                    if code == "UNAUTHORIZED" and self._rotate_api_key():
+                        logger.warning(
+                            f"API error UNAUTHORIZED, switching key {self._api_key_index + 1}/{len(self._api_keys)}"
+                        )
+                        time.sleep(retry_delay)
+                        continue
 
                     last_error = APIError(msg, code)
                     if attempt < max_retries - 1:

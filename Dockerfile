@@ -22,5 +22,5 @@ COPY . .
 # Buat direktori data dan logs yang dibutuhkan oleh bot agar tidak error jika tidak ada
 RUN mkdir -p data logs
 
-# Jalankan bot
-CMD ["python", "main.py"]
+# Jalankan bot (multi-process aware)
+CMD ["python", "multi_run.py"]

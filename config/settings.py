@@ -1,5 +1,11 @@
 import os
 
+try:
+	from dotenv import load_dotenv
+	load_dotenv()
+except Exception:
+	pass
+
 """
 ==============================================================================
 MOLTY ROYALE BOT - CONFIGURATION
@@ -21,6 +27,9 @@ SYNC_POLL_INTERVAL = int(os.environ.get("SYNC_POLL_INTERVAL", "2"))
 _role = (BOT_ROLE or "auto").lower()
 _key_from_role = os.environ.get("API_KEY_A") if _role == "host" else os.environ.get("API_KEY_B")
 API_KEY = os.environ.get("API_KEY") or _key_from_role or "mr_live_xxxxxxxxxxxxxxxxxxxx"
+_raw_api_keys = os.environ.get("API_KEYS", "")
+_api_keys = [k.strip() for k in _raw_api_keys.split(",") if k.strip()]
+API_KEYS = _api_keys or [API_KEY]
 BASE_URL = os.environ.get("BASE_URL", "https://cdn.moltyroyale.com/api")
 
 # =============================================================================
@@ -32,6 +41,7 @@ WALLET_ADDRESS = os.environ.get("WALLET_ADDRESS") or _wallet_from_role or "0xxxx
 # =============================================================================
 # GAME PREFERENCES
 # =============================================================================
+AGENT_NAME = os.environ.get("AGENT_NAME", "")
 PREFERRED_GAME_TYPE = "free"
 AUTO_CREATE_GAME = False         # If True, create game if none waiting
 GAME_MAP_SIZE = "medium"         # "medium" | "large" | "massive"

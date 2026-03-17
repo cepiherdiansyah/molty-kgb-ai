@@ -18,7 +18,7 @@ from core.strategy import StrategyEngine
 from learning.memory import GameMemory
 from learning.ml_engine import LearningEngine
 from config.settings import (
-    API_KEY, BASE_URL, WALLET_ADDRESS,
+    API_KEY, API_KEYS, BASE_URL, WALLET_ADDRESS, AGENT_NAME,
     HP_CRITICAL, HP_LOW, EP_MIN_ATTACK, EP_REST_THRESHOLD,
     PREFERRED_GAME_TYPE, AUTO_CREATE_GAME, GAME_MAP_SIZE,
     WIN_PROBABILITY_ATTACK, WIN_PROBABILITY_AGGRESSIVE,
@@ -156,7 +156,7 @@ class GameLoop:
 
         # Initialize all components
         redis = setup_redis()
-        self.api    = APIClient(BASE_URL, API_KEY)
+        self.api    = APIClient(BASE_URL, API_KEYS)
         self.memory = GameMemory(data_dir=DATA_DIR, redis_client=redis)
         self.learning = LearningEngine(self.memory, min_games_for_ml=MIN_GAMES_FOR_ML)
         self.analyzer = StateAnalyzer(
@@ -181,7 +181,10 @@ class GameLoop:
             if not os.path.exists(SYNC_GAME_FILE):
                 return ""
             with open(SYNC_GAME_FILE, "r") as f:
-                return f.read().strip()
+                gid = f.read().strip()
+                if gid:
+                    logger.debug("Sync game ID read: %s", gid)
+                return gid
         except Exception:
             return ""
 
@@ -193,6 +196,7 @@ class GameLoop:
             _os.makedirs(_os.path.dirname(SYNC_GAME_FILE), exist_ok=True)
             with open(SYNC_GAME_FILE, "w") as f:
                 f.write(game_id)
+            logger.info("Sync game ID published: %s", game_id)
         except Exception:
             pass
 
@@ -224,7 +228,7 @@ class GameLoop:
         """
         try:
             account = self.api.get_account()
-            self.agent_name = account.get("name", "UnknownAgent")
+            self.agent_name = AGENT_NAME or account.get("name", "UnknownAgent")
             
             logger.info(f"Account: {self.agent_name} | "
                         f"Balance: {account.get('balance')} $Moltz | "
@@ -408,6 +412,9 @@ class GameLoop:
                 logger.info("✅ Joined published game | Agent ID: %s", self.agent_id)
                 return True
             except APIError as e:
+                if e.code == "GAME_NOT_FOUND":
+                    logger.warning("Published game ID is stale; clearing sync file")
+                    self._write_sync_game_id("")
                 logger.warning("Published game join failed: %s", e)
 
         logger.info("🎯 Room hunting started — aggressive mode (every %ds)", ROOM_HUNT_INTERVAL)
