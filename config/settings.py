@@ -8,15 +8,26 @@ Edit values here before running the bot.
 """
 
 # =============================================================================
+# BOT ROLE / SYNC
+# =============================================================================
+BOT_ROLE = os.environ.get("BOT_ROLE", "auto")          # auto | host | guest
+SYNC_GAME_FILE = os.environ.get("SYNC_GAME_FILE", "data/target_game_id.txt")
+SYNC_WAIT_SECONDS = int(os.environ.get("SYNC_WAIT_SECONDS", "180"))
+SYNC_POLL_INTERVAL = int(os.environ.get("SYNC_POLL_INTERVAL", "2"))
+
+# =============================================================================
 # API CREDENTIALS (REQUIRED)
 # =============================================================================
-API_KEY = os.environ.get("API_KEY", "mr_live_xxxxxxxxxxxxxxxxxxxx")
+_role = (BOT_ROLE or "auto").lower()
+_key_from_role = os.environ.get("API_KEY_A") if _role == "host" else os.environ.get("API_KEY_B")
+API_KEY = os.environ.get("API_KEY") or _key_from_role or "mr_live_xxxxxxxxxxxxxxxxxxxx"
 BASE_URL = os.environ.get("BASE_URL", "https://cdn.moltyroyale.com/api")
 
 # =============================================================================
 # WALLET (REQUIRED FOR REWARDS)
 # =============================================================================
-WALLET_ADDRESS = os.environ.get("WALLET_ADDRESS", "0xxxxxxxxxxxxxxxxxxxx")
+_wallet_from_role = os.environ.get("WALLET_ADDRESS_A") if _role == "host" else os.environ.get("WALLET_ADDRESS_B")
+WALLET_ADDRESS = os.environ.get("WALLET_ADDRESS") or _wallet_from_role or "0xxxxxxxxxxxxxxxxxxxx"
 
 # =============================================================================
 # GAME PREFERENCES
@@ -24,6 +35,7 @@ WALLET_ADDRESS = os.environ.get("WALLET_ADDRESS", "0xxxxxxxxxxxxxxxxxxxx")
 PREFERRED_GAME_TYPE = "free"
 AUTO_CREATE_GAME = False         # If True, create game if none waiting
 GAME_MAP_SIZE = "medium"         # "medium" | "large" | "massive"
+TARGET_GAME_ID = os.environ.get("TARGET_GAME_ID", "")  # Force join a specific game ID if set
 
 # =============================================================================
 # SURVIVAL THRESHOLDS

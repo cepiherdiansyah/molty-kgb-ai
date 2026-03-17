@@ -9,6 +9,7 @@ Orchestrates: account setup → game finding → registration → game loop →
 import time
 import logging
 import sys
+import os
 from typing import Optional, Dict
 
 from core.api_client import APIClient, APIError
@@ -24,7 +25,8 @@ from config.settings import (
     LEARNING_ENABLED, DATA_DIR, MIN_GAMES_FOR_ML,
     REDIS_ENABLED, REDIS_HOST, REDIS_PORT, REDIS_DB,
     TURN_INTERVAL, POLL_INTERVAL_WAITING, POLL_INTERVAL_DEAD,
-    LOG_LEVEL, LOG_TO_FILE, LOG_FILE
+    LOG_LEVEL, LOG_TO_FILE, LOG_FILE,
+    TARGET_GAME_ID, BOT_ROLE, SYNC_GAME_FILE, SYNC_WAIT_SECONDS, SYNC_POLL_INTERVAL
 )
 
 # =============================================================================
@@ -167,6 +169,44 @@ class GameLoop:
         self.game_id:  Optional[str] = None
         self.agent_id: Optional[str] = None
         self.agent_name: str = "Unknown"
+
+    # ---------------------------------------------------------------------
+    # SYNC GAME ID (OPTIONAL)
+    # ---------------------------------------------------------------------
+
+    def _read_sync_game_id(self) -> str:
+        try:
+            if not SYNC_GAME_FILE:
+                return ""
+            if not os.path.exists(SYNC_GAME_FILE):
+                return ""
+            with open(SYNC_GAME_FILE, "r") as f:
+                return f.read().strip()
+        except Exception:
+            return ""
+
+    def _write_sync_game_id(self, game_id: str):
+        if not SYNC_GAME_FILE or not game_id:
+            return
+        try:
+            import os as _os
+            _os.makedirs(_os.path.dirname(SYNC_GAME_FILE), exist_ok=True)
+            with open(SYNC_GAME_FILE, "w") as f:
+                f.write(game_id)
+        except Exception:
+            pass
+
+    def _wait_for_sync_game_id(self) -> str:
+        if not SYNC_GAME_FILE:
+            return ""
+        waited = 0
+        while waited < SYNC_WAIT_SECONDS:
+            gid = self._read_sync_game_id()
+            if gid:
+                return gid
+            time.sleep(SYNC_POLL_INTERVAL)
+            waited += SYNC_POLL_INTERVAL
+        return ""
 
     # -------------------------------------------------------------------------
     # ACCOUNT SETUP
@@ -320,6 +360,56 @@ class GameLoop:
         hunt_start = _time.time()
         attempt = 0
 
+        if TARGET_GAME_ID:
+            logger.info("🎯 Forced game join: %s", TARGET_GAME_ID)
+            try:
+                agent = self.api.register_agent_fast(TARGET_GAME_ID, self.agent_name)
+                self.game_id = TARGET_GAME_ID
+                self.agent_id = agent["id"]
+                logger.info(
+                    "✅ Registered (forced) | Agent ID: %s | Game: %s",
+                    self.agent_id,
+                    self.game_id
+                )
+                return True
+            except APIError as e:
+                if e.code == "GAME_ALREADY_STARTED":
+                    logger.warning("Forced game already started; waiting for status")
+                    self.game_id = TARGET_GAME_ID
+                    return True
+                logger.error("Forced join failed: %s", e)
+                return False
+
+        role = (BOT_ROLE or "auto").lower()
+        if role == "guest":
+            logger.info("🔗 Waiting for host to publish game ID...")
+            gid = self._wait_for_sync_game_id()
+            if not gid:
+                logger.error("No game ID published within %ss", SYNC_WAIT_SECONDS)
+                return False
+            try:
+                agent = self.api.register_agent_fast(gid, self.agent_name)
+                self.game_id = gid
+                self.agent_id = agent["id"]
+                logger.info("✅ Joined host game | Agent ID: %s", self.agent_id)
+                return True
+            except APIError as e:
+                logger.error("Guest join failed: %s", e)
+                return False
+
+        # auto/host: try existing sync file first to avoid duplicate rooms
+        gid = self._read_sync_game_id()
+        if gid:
+            logger.info("🔗 Found published game ID: %s", gid)
+            try:
+                agent = self.api.register_agent_fast(gid, self.agent_name)
+                self.game_id = gid
+                self.agent_id = agent["id"]
+                logger.info("✅ Joined published game | Agent ID: %s", self.agent_id)
+                return True
+            except APIError as e:
+                logger.warning("Published game join failed: %s", e)
+
         logger.info("🎯 Room hunting started — aggressive mode (every %ds)", ROOM_HUNT_INTERVAL)
 
         while True:
@@ -343,6 +433,7 @@ class GameLoop:
                     agent = self.api.register_agent_fast(game_id, self.agent_name)
                     self.game_id  = game_id
                     self.agent_id = agent["id"]
+                    self._write_sync_game_id(game_id)
                     join_time = _time.time() - hunt_start
                     logger.info(
                         f"✅ Registered as '{self.agent_name}' | "
@@ -401,6 +492,7 @@ class GameLoop:
                         entry_type=PREFERRED_GAME_TYPE
                     )
                     logger.info(f"Created game: {game['id']}")
+                    self._write_sync_game_id(game["id"])
                     continue  # Immediately scan for the new game
                 except APIError as e:
                     if e.code == "WAITING_GAME_EXISTS":
