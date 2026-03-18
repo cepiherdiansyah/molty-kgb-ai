@@ -145,6 +145,14 @@ class APIClient:
     def put(self, path: str, json: Dict = None, **kwargs) -> Dict[str, Any]:
         return self._request("PUT", path, json=json, **kwargs)
 
+    def _require_data(self, response: Any, path: str) -> Dict[str, Any]:
+        if isinstance(response, dict) and "data" in response:
+            return response["data"]
+        error = response.get("error", {}) if isinstance(response, dict) else {}
+        code = error.get("code", "MISSING_DATA")
+        msg = error.get("message", f"Missing data in response for {path}")
+        raise APIError(msg, code)
+
     # -------------------------------------------------------------------------
     # ACCOUNT ENDPOINTS
     # -------------------------------------------------------------------------
@@ -154,15 +162,18 @@ class APIClient:
         payload = {}
         if name:
             payload["name"] = name
-        return self.post("/accounts", json=payload)["data"]
+        return self._require_data(self.post("/accounts", json=payload), "/accounts")
 
     def get_account(self) -> Dict:
         """Get current account info including active games."""
-        return self.get("/accounts/me")["data"]
+        return self._require_data(self.get("/accounts/me"), "/accounts/me")
 
     def set_wallet(self, wallet_address: str) -> Dict:
         """Register EVM wallet for rewards."""
-        return self.put("/accounts/wallet", json={"wallet_address": wallet_address})["data"]
+        return self._require_data(
+            self.put("/accounts/wallet", json={"wallet_address": wallet_address}),
+            "/accounts/wallet"
+        )
 
     def get_history(self, limit: int = 50) -> list:
         """Get transaction history."""
@@ -192,7 +203,7 @@ class APIClient:
 
     def get_game(self, game_id: str) -> Dict:
         """Get game info."""
-        return self.get(f"/games/{game_id}")["data"]
+        return self._require_data(self.get(f"/games/{game_id}"), f"/games/{game_id}")
 
     def create_game(self, host_name: str = None, map_size: str = "medium",
                     entry_type: str = "free", max_agents: int = None) -> Dict:
@@ -202,22 +213,28 @@ class APIClient:
             payload["hostName"] = host_name
         if max_agents:
             payload["maxAgents"] = max_agents
-        return self.post("/games", json=payload)["data"]
+        return self._require_data(self.post("/games", json=payload), "/games")
 
     def register_agent(self, game_id: str, agent_name: str) -> Dict:
         """Register agent in a game. API key in header gives 10 $Moltz."""
-        return self.post(
-            f"/games/{game_id}/agents/register",
-            json={"name": agent_name}
-        )["data"]
+        return self._require_data(
+            self.post(
+                f"/games/{game_id}/agents/register",
+                json={"name": agent_name}
+            ),
+            f"/games/{game_id}/agents/register"
+        )
 
     def register_agent_fast(self, game_id: str, agent_name: str) -> Dict:
         """Fast version: 1 attempt, 5s timeout. Untuk sniping room."""
-        return self._request(
-            "POST", f"/games/{game_id}/agents/register",
-            max_retries=1, timeout=5, retry_delay=0,
-            json={"name": agent_name}
-        )["data"]
+        return self._require_data(
+            self._request(
+                "POST", f"/games/{game_id}/agents/register",
+                max_retries=1, timeout=5, retry_delay=0,
+                json={"name": agent_name}
+            ),
+            f"/games/{game_id}/agents/register"
+        )
 
     # -------------------------------------------------------------------------
     # AGENT ENDPOINTS
@@ -225,7 +242,10 @@ class APIClient:
 
     def get_state(self, game_id: str, agent_id: str) -> Dict:
         """Get agent's current full state. Call every turn."""
-        return self.get(f"/games/{game_id}/agents/{agent_id}/state")["data"]
+        return self._require_data(
+            self.get(f"/games/{game_id}/agents/{agent_id}/state"),
+            f"/games/{game_id}/agents/{agent_id}/state"
+        )
 
     def take_action(self, game_id: str, agent_id: str,
                     action: Dict, thought: Dict = None) -> Dict:
