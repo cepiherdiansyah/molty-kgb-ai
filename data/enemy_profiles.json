@@ -195,5 +195,40 @@
     ],
     "weapons_seen": [],
     "last_seen": "2026-03-17T07:24:36.944361"
+  },
+  "ba649144-4439-4638-9bed-fec3696ce2f5": {
+    "encounters": 1,
+    "wins_against": 0,
+    "losses_to": 1,
+    "observed_atk": [
+      8
+    ],
+    "observed_def": [
+      4
+    ],
+    "observed_hp": [
+      100
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T15:51:54.801205"
+  },
+  "94b65050-a9c5-4f90-bad0-6d17d16a026e": {
+    "encounters": 2,
+    "wins_against": 0,
+    "losses_to": 2,
+    "observed_atk": [
+      8,
+      8
+    ],
+    "observed_def": [
+      4,
+      4
+    ],
+    "observed_hp": [
+      100,
+      90
+    ],
+    "weapons_seen": [],
+    "last_seen": "2026-03-17T16:43:17.906028"
   }
 }

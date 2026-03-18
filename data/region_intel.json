@@ -194,5 +194,19 @@
     "was_dz": false,
     "dz_count": 0,
     "visit_count": 2
+  },
+  "68dc1ea5-c293-4b40-a6ce-17bed70d95c6": {
+    "name": "Plaza",
+    "terrain": "hills",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 1
+  },
+  "9165dfca-addd-4832-a086-e2f2384cabe1": {
+    "name": "Library",
+    "terrain": "cave",
+    "was_dz": false,
+    "dz_count": 0,
+    "visit_count": 4
   }
 }

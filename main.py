@@ -292,14 +292,14 @@ class GameLoop:
 
                 if status in ("running", "waiting"):
                     if is_alive and entry_type == PREFERRED_GAME_TYPE:
-                        logger.info(f"Resuming active game: {game_id} (alive={is_alive})")
+                        logger.info(f"[{self.agent_name}] Resuming active game: {game_id} (alive={is_alive})")
                         self.game_id  = game_id
                         self.agent_id = agent_id
                         return "resume"
                     else:
                         # Sudah mati tapi game masih running — harus tunggu game selesai
                         logger.info(
-                            f"Already in game {game_id[:8]}... (status={status}, alive={is_alive})"
+                            f"[{self.agent_name}] Already in game {game_id[:8]}... (status={status}, alive={is_alive})"
                         )
                         self._active_game_id = game_id  # simpan untuk polling
                         return "waiting"
@@ -561,7 +561,7 @@ class GameLoop:
 
     def wait_for_game_start(self):
         """Poll until game status = 'running'."""
-        logger.info("Waiting for game to start...")
+        logger.info(f"[{self.agent_name}] Waiting for game to start...")
         while True:
             try:
                 game = self.api.get_game(self.game_id)
@@ -569,10 +569,10 @@ class GameLoop:
                 agents = game.get("currentAgents", game.get("agentCount", "?"))
 
                 if status == "running":
-                    logger.info(f"GAME STARTED! ({agents} agents)")
+                    logger.info(f"[{self.agent_name}] GAME STARTED! ({agents} agents)")
                     return
                 elif status == "finished":
-                    logger.warning("Game finished before we could play")
+                    logger.warning(f"[{self.agent_name}] Game finished before we could play")
                     self.game_id = None
                     self.agent_id = None
                     return
@@ -590,7 +590,7 @@ class GameLoop:
 
     def run_game(self):
         """Execute the main game loop. Handles one full game."""
-        logger.info(f"Starting game loop | Game: {self.game_id} | Agent: {self.agent_id}")
+        logger.info(f"[{self.agent_name}] Starting game loop | Game: {self.game_id} | Agent: {self.agent_id}")
 
         # Initialize memory tracking for this game
         self.memory.start_game(self.game_id, self.agent_id, self.agent_name)
@@ -612,7 +612,7 @@ class GameLoop:
         if LEARNING_ENABLED and self.memory.games_played() >= MIN_GAMES_FOR_ML:
             self.learning.retrain(self.memory.get_recent_games(50))
             status = self.learning.get_learning_status()
-            logger.info(f"Learning status: ML_active={status['ml_active']}, "
+            logger.info(f"[{self.agent_name}] Learning status: ML_active={status['ml_active']}, "
                         f"games={status['games_played']}")
 
         while True:
@@ -624,7 +624,7 @@ class GameLoop:
             except APIError as e:
                 if e.code in ("GAME_NOT_FOUND", "AGENT_NOT_FOUND"):
                     logger.info(
-                        f"Game gone ({e.code}) — exiting loop after T{turn_count}"
+                        f"[{self.agent_name}] Game gone ({e.code}) — exiting loop after T{turn_count}"
                     )
                     self.memory.end_game(
                         is_winner=False, final_rank=99, final_hp=0,
@@ -654,7 +654,7 @@ class GameLoop:
                 # Poll sampai game selesai untuk dapat rank sesungguhnya
                 if not final_rank and not is_alive and game_status != "finished":
                     logger.info(
-                        "Bot eliminated T%d — waiting for game to end to get real rank...",
+                        f"[{self.agent_name}] Bot eliminated T%d — waiting for game to end to get real rank...",
                         turn_count
                     )
                     final_rank = self._poll_for_final_rank(turn_count)
@@ -851,12 +851,12 @@ class GameLoop:
 
             except APIError as e:
                 if e.code == "INSUFFICIENT_EP":
-                    logger.warning("Insufficient EP — forcing rest next decision")
+                    logger.warning(f"[{self.agent_name}] Insufficient EP — forcing rest next decision")
                 elif e.code == "GAME_NOT_RUNNING":
-                    logger.info("Game is not running anymore, checking state...")
+                    logger.info(f"[{self.agent_name}] Game is not running anymore, checking state...")
                     time.sleep(5)
                 else:
-                    logger.error(f"Action failed: {e}")
+                    logger.error(f"[{self.agent_name}] Action failed: {e}")
 
             # ---- HEARTBEAT STATUS ----
             if turn_count % 5 == 0:
@@ -876,6 +876,9 @@ class GameLoop:
         R  = "\033[0m"       # Reset
         B  = "\033[1m"       # Bold
         D  = "\033[2m"       # Dim
+
+        # Agent name prefix (short form)
+        agent_tag = f"\033[1;36m[{self.agent_name[:10]}]{R} "
 
         # ── Hitung Day / Hour dari turn number ───────────────────────
         # 1 turn = 6 game hours, 4 turns = 1 day
@@ -977,7 +980,7 @@ class GameLoop:
         turn_s = f"{D}T{turn:03d}{R}"
 
         line = (
-            f"{turn_s} {day_s} {left_s} {sep} "
+            f"{agent_tag}{turn_s} {day_s} {left_s} {sep} "
             f"{phase_s} {sep} "
             f"{act_color}{B}{atype:<8}{R} {sep} "
             f"{hp_icon}{hp_color}{hp:>3.0f}[{hp_bar}]{R} {sep} "
@@ -1005,7 +1008,7 @@ class GameLoop:
         start = _time.time()
         poll_interval = 30
 
-        logger.info(f"Waiting for game to end to get real rank "
+        logger.info(f"[{self.agent_name}] Waiting for game to end to get real rank "
                     f"(eliminated at T{turn_count})...")
 
         while _time.time() - start < timeout:
@@ -1016,7 +1019,7 @@ class GameLoop:
 
                 rank = res.get("finalRank") or res.get("rank")
                 if rank:
-                    logger.info(f"Real rank received: #{rank}")
+                    logger.info(f"[{self.agent_name}] Real rank received: #{rank}")
                     return int(rank)
 
                 if gs == "finished":
@@ -1049,16 +1052,16 @@ class GameLoop:
 
         if is_winner:
             banner_col = "\033[1;33m"   # Gold
-            banner     = "🏆  VICTORY!  🏆"
+            banner     = f"🏆  [{self.agent_name}] VICTORY!  🏆"
         elif rank <= 5:
             banner_col = "\033[1;36m"   # Cyan
-            banner     = f"🥈  RANK #{rank} — GREAT GAME!"
+            banner     = f"🥈  [{self.agent_name}] RANK #{rank} — GREAT GAME!"
         elif rank <= 10:
             banner_col = "\033[0;36m"
-            banner     = f"🎖  RANK #{rank} — TOP 10!"
+            banner     = f"🎖  [{self.agent_name}] RANK #{rank} — TOP 10!"
         else:
             banner_col = "\033[0;31m"   # Red
-            banner     = f"💀  ELIMINATED — Rank #{rank}"
+            banner     = f"💀  [{self.agent_name}] ELIMINATED — Rank #{rank}"
 
         stats = self.memory.get_stats()
         wr    = stats.get("win_rate", 0)
@@ -1091,7 +1094,7 @@ class GameLoop:
         if mode == "idle":
             stats = self.memory.get_stats()
             wr = f"{stats['win_rate']:.0%}" if stats.get("games", 0) > 0 else "N/A"
-            print(f"[{ts}] HEARTBEAT_OK │ Waiting for game │ "
+            print(f"[{ts}] [{self.agent_name}] HEARTBEAT_OK │ Waiting for game │ "
                   f"Career: {stats.get('games',0)} games, WR={wr}")
         elif mode == "playing" and intel:
             dz   = " │ ⚡ DEATH ZONE!" if intel["is_death_zone"] else ""
@@ -1099,7 +1102,7 @@ class GameLoop:
                     self.memory._current_game else 0
             moltz = self.memory._current_game.get("moltz_earned", 0) if \
                     self.memory._current_game else 0
-            print(f"[{ts}] PLAYING │ T{turn} │ "
+            print(f"[{ts}] [{self.agent_name}] PLAYING │ T{turn} │ "
                   f"HP:{intel['hp']:.0f}/100 EP:{intel['ep']}/10 │ "
                   f"K:{kills} │ {intel['region_name'][:15]}{dz}")
 
@@ -1109,12 +1112,12 @@ class GameLoop:
 
     def run(self):
         """Main run loop — runs forever, game after game."""
-        logger.info("Bot starting. Press Ctrl+C to stop.")
+        logger.info(f"[{self.agent_name}] Bot starting. Press Ctrl+C to stop.")
 
         # Print learning stats on startup
         stats = self.memory.get_stats()
         if stats["games"] > 0:
-            logger.info(f"Career stats: {stats['win_rate']:.1%} win rate, "
+            logger.info(f"[{self.agent_name}] Career stats: {stats['win_rate']:.1%} win rate, "
                         f"{stats['total_kills']} total kills, "
                         f"{stats['total_moltz']} total $Moltz")
 
@@ -1133,7 +1136,7 @@ class GameLoop:
             try:
                 game_count += 1
                 logger.info(f"\n{'='*60}")
-                logger.info(f"  GAME #{game_count} (Career: {self.memory.games_played()} played)")
+                logger.info(f"  [{self.agent_name}] GAME #{game_count} (Career: {self.memory.games_played()} played)")
                 logger.info(f"{'='*60}")
 
                 # Find and join game (skip if already in one)
@@ -1154,16 +1157,16 @@ class GameLoop:
                     time.sleep(5)  # Brief pause between games
 
             except KeyboardInterrupt:
-                logger.info("\nBot stopped by user.")
+                logger.info(f"\n[{self.agent_name}] Bot stopped by user.")
                 self.memory.save_all()
                 stats = self.memory.get_stats()
-                logger.info(f"Final career stats: {stats}")
+                logger.info(f"[{self.agent_name}] Final career stats: {stats}")
                 sys.exit(0)
 
             except Exception as e:
-                logger.error(f"Unexpected error in game loop: {e}", exc_info=True)
+                logger.error(f"[{self.agent_name}] Unexpected error in game loop: {e}", exc_info=True)
                 self.memory.save_all()
-                logger.info("Recovering and retrying in 30 seconds...")
+                logger.info(f"[{self.agent_name}] Recovering and retrying in 30 seconds...")
                 time.sleep(30)
 
 
